@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31237" started-at="2017-06-06T14:52:02Z" finished-at="2017-06-06T14:52:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31237" started-at="2017-06-06T14:52:02Z" finished-at="2017-06-06T14:52:33Z">
+      <class name="testscript.CreateTemplate">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="3947" started-at="2017-06-06T14:52:02Z" finished-at="2017-06-06T14:52:06Z">
+        </test-method>
+        <test-method status="PASS" signature="openHomePage()" name="openHomePage" is-config="true" duration-ms="15830" started-at="2017-06-06T14:52:06Z" finished-at="2017-06-06T14:52:22Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="9736" started-at="2017-06-06T14:52:22Z" finished-at="2017-06-06T14:52:32Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1712" started-at="2017-06-06T14:52:32Z" finished-at="2017-06-06T14:52:33Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
