@@ -5,8 +5,10 @@
     <classes>
       <class name="testscript.CreateTemplate">
         <methods>
+          <include name="openHomePage"/>
           <include name="test"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class>
     </classes>

@@ -13,7 +13,6 @@ public class AutomationUtil {
 
 	/**
 	 * Find WebElement by id/name/class/xpath/css/tagName/PartialLink
-	 * 
 	 * @param locator,idString,
 	 *            wd : current webdriver
 	 * @return WebElement
@@ -63,9 +62,9 @@ public class AutomationUtil {
 		return webElement;
 	}
 
-	public void explicitWait(WebDriver wDriver, String sStrategy, String sIdString, String waitTime) {
+	public static void explicitWait(WebDriver wDriver, String sStrategy, String sIdString) {
 
-		int iWaitTime = 5;
+		int iWaitTime = 60;
 
 		WebDriverWait wdWait = new WebDriverWait(wDriver, iWaitTime);
 		switch (sStrategy) {
